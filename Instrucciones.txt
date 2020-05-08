@@ -1,0 +1,29 @@
+La parte del front no la pude terminar. Unicamente adjunto la api en Nodejs y PHP, y una parte del front con el formulario para crear la cita médica
+
+
+La API Rest esta desarrollada con el Framework de PHP Slim
+
+*Para ejecutarlo simplemente se debe iniciar un servidor local como XAMPP y copiar los archivos del proyecto en la carpeta utilizada para 
+levantar los proyectos, en el caso de XAMPP C:\xampp\htdocs
+
+*Para importar la base de datos se debe crear en XAMPP una DB con el nombre de medicalappointments e importar el archivo sql adjunto en la raiz del proyecto.
+
+Las rutas para realizar las peticiones en PHP son las siguientes:
+
+*ListAppointments (GET): http://localhost:80/api-medical-appointments-php/public/api/v1/listappointments
+*GetAppointmentId (GET): http://localhost:80/api-medical-appointments-php/public/api/v1/getappointment
+*AddAppointment (POST): http://localhost:80/api-medical-appointments-php/public/api/v1/addappointment
+*UpdateAppointment (PUT): http://localhost:80/api-medical-appointments-php/public/api/v1/updateappointment
+*DeleteAppointment (DELETE): http://localhost:80/api-medical-appointments-php/public/api/v1/deleteappointment
+
+
+*Crear DB en MongoDB con el nombre de medicalappointments y crear una collection con el nombre appointments, luego ejecutamos npm install y para arrancar 
+el proyecto npm start
+
+Las rutas para realizar las peticiones en Nodejs son las siguientes:
+
+*ListAppointments (GET): http://localhost:3000/api/v1/listappointments
+*GetAppointmentId (GET): http://localhost:3000/api/v1/getappointment
+*AddAppointment (POST): http://localhost:3000/api/v1/addappointment
+*UpdateAppointment (PUT): http://localhost:3000/api/v1/updateappointment
+*DeleteAppointment (DELETE): http://localhost:3000/api/v1/deleteappointment
